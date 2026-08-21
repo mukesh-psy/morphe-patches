@@ -9,7 +9,7 @@ source in the Morphe manager app.
 ## Supported apps
 
 <!-- PATCHES_START -->
-> **[v1.1.0](https://github.com/mukesh-psy/morphe-patches/releases/tag/v1.1.0)**&nbsp;&nbsp;&middot;&nbsp;&nbsp;`main`&nbsp;&nbsp;&middot;&nbsp;&nbsp;**375 patches** across **244 apps**&nbsp;&nbsp;&middot;&nbsp;&nbsp;[Full details](PATCHES.md)
+> **[v1.2.0](https://github.com/mukesh-psy/morphe-patches/releases/tag/v1.2.0)**&nbsp;&nbsp;&middot;&nbsp;&nbsp;`main`&nbsp;&nbsp;&middot;&nbsp;&nbsp;**378 patches** across **244 apps**&nbsp;&nbsp;&middot;&nbsp;&nbsp;[Full details](PATCHES.md)
 
 | # | App | Patches | Version | Package |
 |---|---|---|---|---|
@@ -139,7 +139,7 @@ source in the Morphe manager app.
 | 124 | [**Money Manager**](PATCHES.md#money-manager-comglgjingmoneymanagerbookkeepingmeow) | 1 | `1.9.9` | [`com.glgjing.money.manager.bookkeeping.meow`](https://play.google.com/store/apps/details?id=com.glgjing.money.manager.bookkeeping.meow) |
 | 125 | [**Moovit**](PATCHES.md#moovit-comtranzmate) | 1 | `5.197.1.1801` | [`com.tranzmate`](https://play.google.com/store/apps/details?id=com.tranzmate) |
 | 126 | [**MovieBox TV**](PATCHES.md#moviebox-tv-comcommunitymboxtv) | 1 | `1.1.6.0723.03` | [`com.community.mbox.tv`](https://play.google.com/store/apps/details?id=com.community.mbox.tv) |
-| 127 | [**MX Player Pro**](PATCHES.md#mx-player-pro-commxtechvideoplayerpro) | 1 | `1.93.4` | [`com.mxtech.videoplayer.pro`](https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.pro) |
+| 127 | [**MX Player Pro**](PATCHES.md#mx-player-pro-commxtechvideoplayerpro) | 4 | `1.93.4` | [`com.mxtech.videoplayer.pro`](https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.pro) |
 | 128 | [**MyRadar**](PATCHES.md#myradar-comacmeaomandroidmyradar) | 1 | `8.72.0` | [`com.acmeaom.android.myradar`](https://play.google.com/store/apps/details?id=com.acmeaom.android.myradar) |
 | 129 | [**NAVITIME**](PATCHES.md#navitime-comnavitimeinboundwalk) | 1 | `12.0.10` | [`com.navitime.inbound.walk`](https://play.google.com/store/apps/details?id=com.navitime.inbound.walk) |
 | 130 | [**NetGuard**](PATCHES.md#netguard-eufaircodenetguard) | 1 | `2.337` | [`eu.faircode.netguard`](https://play.google.com/store/apps/details?id=eu.faircode.netguard) |

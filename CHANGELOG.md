@@ -1,3 +1,9 @@
+## [1.2.0](https://github.com/mukesh-psy/morphe-patches/compare/v1.1.0...v1.2.0) (2026-08-21)
+
+### ✨ New Features
+
+* Add MX Player Pro offline mode, package rename and protection module disable ([e9cb318](https://github.com/mukesh-psy/morphe-patches/commit/e9cb31828882297a9cc09cddd489d4eb186bdbf4))
+
 ## [1.1.0](https://github.com/mukesh-psy/morphe-patches/compare/v1.0.0...v1.1.0) (2026-08-21)
 
 ### 🐛 Bug Fixes

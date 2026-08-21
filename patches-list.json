@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "patches": [
     {
       "name": "AMOLED dark theme",
@@ -691,6 +691,56 @@
       ]
     },
     {
+      "name": "Change package name",
+      "description": "Installs MX Player Pro beside the original by changing the package name, removing the shared user ID, renaming permissions and providers, and updating the app name.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.mxtech.videoplayer.pro",
+          "name": "MX Player Pro",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#FF8A00",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.93.4",
+              "versionCodes": {
+                "ARM64_V8A": 2001002584,
+                "ARMEABI_V7A": 2001002584,
+                "X86_64": 2001002584,
+                "X86": 2001002584
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": [
+        {
+          "key": "mxPlayerPackageName",
+          "title": "Package name",
+          "description": "Package name for the cloned MX Player Pro.",
+          "required": true,
+          "type": "kotlin.String",
+          "default": "com.morphe.mxtech.videoplayer.pro",
+          "values": null
+        },
+        {
+          "key": "mxPlayerAppName",
+          "title": "App name",
+          "description": "Launcher name for the cloned MX Player Pro.",
+          "required": true,
+          "type": "kotlin.String",
+          "default": "MX Player Pro Morphe",
+          "values": null
+        }
+      ]
+    },
+    {
       "name": "Change version code",
       "description": "Changes android:versionCode.",
       "default": false,
@@ -707,6 +757,39 @@
           "values": null
         }
       ]
+    },
+    {
+      "name": "Complete offline mode",
+      "description": "Removes the INTERNET permission so the app cannot make any network connection, and blocks clipboard access.",
+      "default": true,
+      "dependencies": [
+        "BytecodePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.mxtech.videoplayer.pro",
+          "name": "MX Player Pro",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#FF8A00",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.93.4",
+              "versionCodes": {
+                "ARM64_V8A": 2001002584,
+                "ARMEABI_V7A": 2001002584,
+                "X86_64": 2001002584,
+                "X86": 2001002584
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
     },
     {
       "name": "Dark mode",
@@ -1224,6 +1307,37 @@
               "versionCodes": {
                 "ARMEABI_V7A": 344611781,
                 "ARM64_V8A": 344611864
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Disable protection module",
+      "description": "Disables the native MX protection module (integrity watchdog + MX server reporting). Fixes startup crashes on patched builds.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.mxtech.videoplayer.pro",
+          "name": "MX Player Pro",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#FF8A00",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.93.4",
+              "versionCodes": {
+                "ARM64_V8A": 2001002584,
+                "ARMEABI_V7A": 2001002584,
+                "X86_64": 2001002584,
+                "X86": 2001002584
               },
               "isExperimental": false,
               "minSdk": null,

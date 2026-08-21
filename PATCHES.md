@@ -1,6 +1,6 @@
 # Patches
 
-> Generated from `patches-list.json` — **v1.1.0** (`main`) · **375 patches** across **244 apps** · back to [README](README.md)
+> Generated from `patches-list.json` — **v1.2.0** (`main`) · **378 patches** across **244 apps** · back to [README](README.md)
 
 ---
 
@@ -1308,6 +1308,9 @@
 
 | Patch | Details |
 |---|---|
+| **Change package name** | Installs MX Player Pro beside the original by changing the package name, removing the shared user ID, renaming permissions and providers, and updating the app name.<br><sub>Options: Package name, App name</sub> |
+| **Complete offline mode** | Removes the INTERNET permission so the app cannot make any network connection, and blocks clipboard access. |
+| **Disable protection module** | Disables the native MX protection module (integrity watchdog + MX server reporting). Fixes startup crashes on patched builds. |
 | **Remove license check** | Disables Google Play Licensing and MX license-proxy verification. No account login or purchase validation is requested. |
 
 ---
