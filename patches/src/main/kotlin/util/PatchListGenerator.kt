@@ -14,13 +14,16 @@ import java.net.URLClassLoader
 import java.util.jar.Manifest
 
 fun main() {
+    // Pick the most recently built bundle. Older-version jars can linger in
+    // build/libs across release version bumps, so relying on unsorted
+    // listFiles().first() may silently load a stale bundle.
     val patchFiles = setOf(
         File("build/libs/").listFiles { file ->
             val fileName = file.name
             !fileName.contains("javadoc") &&
                     !fileName.contains("sources") &&
                     fileName.endsWith(".mpp")
-        }!!.first()
+        }!!.maxByOrNull { it.lastModified() }!!
     )
     val loadedPatches = loadPatchesFromJar(patchFiles)
     val patchClassLoader = URLClassLoader(patchFiles.map { it.toURI().toURL() }.toTypedArray())
