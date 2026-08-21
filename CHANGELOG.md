@@ -1,3 +1,9 @@
+## [1.2.1](https://github.com/mukesh-psy/morphe-patches/compare/v1.2.0...v1.2.1) (2026-08-21)
+
+### 🐛 Bug Fixes
+
+* Patch list generator picking stale bundle from build/libs ([110ec9c](https://github.com/mukesh-psy/morphe-patches/commit/110ec9c3f57fc2fa60af4efe863122630d89c49c))
+
 ## [1.2.0](https://github.com/mukesh-psy/morphe-patches/compare/v1.1.0...v1.2.0) (2026-08-21)
 
 ### ✨ New Features
