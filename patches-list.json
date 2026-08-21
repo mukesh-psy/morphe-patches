@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "patches": [
     {
       "name": "AMOLED dark theme",
@@ -3746,6 +3746,37 @@
       "default": false,
       "dependencies": [],
       "compatiblePackages": null,
+      "options": []
+    },
+    {
+      "name": "Remove license check",
+      "description": "Disables Google Play Licensing and MX license-proxy verification. No account login or purchase validation is requested.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.mxtech.videoplayer.pro",
+          "name": "MX Player Pro",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#FF8A00",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.93.4",
+              "versionCodes": {
+                "ARM64_V8A": 2001002584,
+                "ARMEABI_V7A": 2001002584,
+                "X86_64": 2001002584,
+                "X86": 2001002584
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
       "options": []
     },
     {
