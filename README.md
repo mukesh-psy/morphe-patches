@@ -3,7 +3,7 @@
 My personal Morphe patches bundle. Grab the latest `patches-*.mpp` from [Releases](https://github.com/mukesh-psy/morphe-patches/releases) and add it as a source in your Morphe manager.
 
 <!-- PATCHES_START -->
-> **[v1.2.1](https://github.com/mukesh-psy/morphe-patches/releases/tag/v1.2.1)**&nbsp;&nbsp;&middot;&nbsp;&nbsp;`main`&nbsp;&nbsp;&middot;&nbsp;&nbsp;**378 patches** across **244 apps**&nbsp;&nbsp;&middot;&nbsp;&nbsp;[Full details](PATCHES.md)
+> **[v1.2.2](https://github.com/mukesh-psy/morphe-patches/releases/tag/v1.2.2)**&nbsp;&nbsp;&middot;&nbsp;&nbsp;`main`&nbsp;&nbsp;&middot;&nbsp;&nbsp;**378 patches** across **244 apps**&nbsp;&nbsp;&middot;&nbsp;&nbsp;[Full details](PATCHES.md)
 
 | # | App | Patches | Version | Package |
 |---|---|---|---|---|

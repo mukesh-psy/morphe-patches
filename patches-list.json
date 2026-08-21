@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "patches": [
     {
       "name": "AMOLED dark theme",
@@ -735,7 +735,7 @@
           "description": "Launcher name for the cloned MX Player Pro.",
           "required": true,
           "type": "kotlin.String",
-          "default": "MX Player Pro Morphe",
+          "default": "MX Player Pro",
           "values": null
         }
       ]
@@ -1319,7 +1319,7 @@
     },
     {
       "name": "Disable protection module",
-      "description": "Disables the native MX protection module (integrity watchdog + MX server reporting). Fixes startup crashes on patched builds.",
+      "description": "Disables the native MX protection module (integrity watchdog + MX server reporting). Fixes startup crashes and silent exits on patched builds.",
       "default": true,
       "dependencies": [],
       "compatiblePackages": [

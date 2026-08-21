@@ -1,3 +1,9 @@
+## [1.2.2](https://github.com/mukesh-psy/morphe-patches/compare/v1.2.1...v1.2.2) (2026-08-21)
+
+### 🐛 Bug Fixes
+
+* Neutralize direct libmx-bh load in Application onCreate; default app name to MX Player Pro ([cfe6c0a](https://github.com/mukesh-psy/morphe-patches/commit/cfe6c0a5fdcf47bfa45c1f4aad383763d8555f9f))
+
 ## [1.2.1](https://github.com/mukesh-psy/morphe-patches/compare/v1.2.0...v1.2.1) (2026-08-21)
 
 ### 🐛 Bug Fixes
