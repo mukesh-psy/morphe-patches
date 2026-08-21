@@ -983,6 +983,14 @@ val MESSENGER_COMPATIBILITY = Compatibility(
         )
     )
 
+val MX_PLAYER_PRO_COMPATIBILITY = Compatibility(
+        name = "MX Player Pro",
+        packageName = "com.mxtech.videoplayer.pro",
+        apkFileType = ApkFileType.APK,
+        appIconColor = 0xFF8A00,
+        targets = listOf(AppTarget(version = "1.93.4", versionCode = 2001002584))
+    )
+
 val METEOBLUE_COMPATIBILITY = Compatibility(
         name = "meteoblue Weather",
         packageName = "com.meteoblue.droid",
