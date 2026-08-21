@@ -39,7 +39,7 @@ val mxPlayerChangePackageNamePatch = resourcePatch(
 
     val appName by stringOption(
         key = "mxPlayerAppName",
-        default = "MX Player Pro Morphe",
+        default = "MX Player Pro",
         title = "App name",
         description = "Launcher name for the cloned MX Player Pro.",
         required = true,
@@ -75,7 +75,7 @@ val mxPlayerChangePackageNamePatch = resourcePatch(
                 it.setAttribute("name", APP_NAME_STRING)
                 resources.appendChild(it)
             }
-            target.textContent = appName ?: "MX Player Pro Morphe"
+            target.textContent = appName ?: "MX Player Pro"
         }
     }
 }

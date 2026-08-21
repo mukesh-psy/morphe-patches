@@ -118,3 +118,16 @@ internal val AppProtectionAltInitFingerprint = Fingerprint(
     returnType = "V",
     parameters = listOf(),
 )
+
+/**
+ * lV.onCreate()V — base Application onCreate contains a DIRECT
+ * System.loadLibrary("mx-bh") guarded by AN.o(), bypassing the BH class
+ * entirely. lV = AbstractApplicationC3166lV. We locate the const-string
+ * "mx-bh" inside it and NOP the following loadLibrary invocation.
+ */
+internal val ApplicationOnCreateFingerprint = Fingerprint(
+    definingClass = "LlV;",
+    name = "onCreate",
+    returnType = "V",
+    parameters = listOf(),
+)
